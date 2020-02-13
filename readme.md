@@ -2,6 +2,8 @@
 
 ![](GiphyParty.png)
 
+[Go to GiphyParty](https://silverrainb.github.io/giphyParty/)
+
 Using http://api.giphy.com:
 
 * Allow the user to search for a GIF and when the form is submitted, make an AJAX request to the Giphy API and return a single GIF
