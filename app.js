@@ -7,7 +7,7 @@ $(document).ready(function () {
     })
 
     async function searchGiphy(query, apiKey){
-        const res = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${query}&api_key=${apiKey}`)
+        const res = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${query}&api_key=${apiKey}`)
         let randNum = getRandomInt(24)
         let gifURL = (res.data.data[`${randNum}`].images.downsized_large.url)
         add(gifURL)
